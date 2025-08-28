@@ -1,46 +1,142 @@
-<!doctype html> 
+<!doctype html>
 <html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Jumpstart AI – Get Over the AI Hump</title>
-<meta name="description" content="Jumpstart AI helps small businesses save time and grow faster with simple AI workflows.">
-<style>
-  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;padding:40px;line-height:1.5;background:#f8fafc;color:#0f172a}
-  .w{max-width:780px;margin:auto}
-  .b{display:inline-block;margin:6px 8px 0 0;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:700}
-  .g{border:1px solid #cbd5e1;color:#0f172a}
-  h1{font-size:36px;margin:0 0 8px}
-  h2{font-size:22px;margin:28px 0 8px}
-  ul{padding-left:18px}
-  footer{margin-top:30px;font-size:14px;color:#475569}
-</style>
-<div class="w">
-  <h1>Jumpstart AI</h1>
-  <p><b>Get over the AI hump. Save time. Grow faster.</b></p>
-  <p>We help small businesses set up simple AI workflows for emails, social posts, and customer follow-ups—so you can focus on running your business.</p>
-  <p>
-    <a class="b g" href="mailto:jumpstartai.consulting@gmail.com">Email Us</a>
-  </p>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jumpstart AI — Get Over the AI Hump</title>
+  <meta name="description" content="Jumpstart AI helps small businesses save time and grow faster with simple, practical AI workflows." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    .glass { background: rgba(255,255,255,.7); backdrop-filter: blur(8px); }
+    .shadow-soft { box-shadow: 0 10px 25px rgba(2,6,23,.12), 0 4px 10px rgba(2,6,23,.06); }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-indigo-50 via-white to-white text-slate-800">
+  <!-- NAV -->
+  <header class="sticky top-0 z-30 bg-white/70 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-indigo-600 text-white font-extrabold">J</span>
+        <span class="font-extrabold tracking-tight">Jumpstart AI</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#how" class="hover:text-indigo-700">How We Help</a>
+        <a href="#why" class="hover:text-indigo-700">Why Us</a>
+        <a href="#contact" class="hover:text-indigo-700">Contact</a>
+      </nav>
+      <a href="#contact" class="rounded-xl px-4 py-2 text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700 shadow-soft">Email Us</a>
+    </div>
+  </header>
 
-  <h2>How We Help</h2>
-  <ul>
-    <li>Set up reusable AI prompts for customer communication</li>
-    <li>Create AI-driven content ideas for blogs, newsletters, and socials</li>
-    <li>Train your team to use AI tools efficiently</li>
-    <li>Show you exactly how AI can save you 5–10 hours a week</li>
-  </ul>
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-indigo-200 blur-3xl opacity-50"></div>
+    <div class="absolute -bottom-16 -left-16 h-72 w-72 rounded-full bg-fuchsia-200 blur-3xl opacity-50"></div>
 
-  <h2>Why Jumpstart AI?</h2>
-  <ul>
-    <li>Practical, no-fluff training for business owners</li>
-    <li>Clear workflows you can start using the same day</li>
-    <li>Local, approachable, small-business friendly</li>
-  </ul>
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight">
+          Get over the <span class="text-indigo-700">AI hump.</span><br/>
+          <span class="text-slate-700">Save time. Grow faster.</span>
+        </h1>
+        <p class="mt-5 text-lg text-slate-600">
+          We set up practical AI workflows for small businesses—so customer emails, social posts,
+          and follow-ups take minutes, not hours.
+        </p>
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href="#contact" class="rounded-xl px-5 py-3 text-base font-semibold text-white bg-indigo-600 hover:bg-indigo-700 shadow-soft">Email Us</a>
+          <a href="#how" class="rounded-xl px-5 py-3 text-base font-semibold border border-slate-300 hover:border-slate-400">What we do</a>
+        </div>
+        <div class="mt-6 flex items-center gap-4 text-sm text-slate-500">
+          <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span> Fast setup</div>
+          <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span> No fluff training</div>
+          <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-green-500"></span> Small-business friendly</div>
+        </div>
+      </div>
 
-  <footer>
-    © <span id="y"></span> Jumpstart AI. All rights reserved.  
-    <br><small>Pricing and packages are customized based on your needs. Final terms confirmed before engagement.</small>
+      <div class="glass rounded-2xl shadow-soft border border-slate-200 p-6">
+        <h3 class="text-lg font-bold">Typical Wins in Week One</h3>
+        <ul class="mt-4 grid gap-3 text-slate-700">
+          <li class="flex gap-3"><span>✅</span> Reusable email replies for common customer questions</li>
+          <li class="flex gap-3"><span>✅</span> 2 weeks of social captions drafted in under an hour</li>
+          <li class="flex gap-3"><span>✅</span> Simple review-request messages that actually get responses</li>
+          <li class="flex gap-3"><span>✅</span> A prompt library your team can use the same day</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW WE HELP -->
+  <section id="how" class="py-16 border-t border-slate-200">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-extrabold">How We Help</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-soft">
+          <div class="text-2xl">🧰</div>
+          <h3 class="mt-2 font-bold">Prompt Libraries</h3>
+          <p class="mt-2 text-slate-600">Reusable prompts for emails, socials, ads, and FAQs—written in your brand voice.</p>
+        </div>
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-soft">
+          <div class="text-2xl">✍️</div>
+          <h3 class="mt-2 font-bold">Done-for-You Drafts</h3>
+          <p class="mt-2 text-slate-600">Blogs, captions, and newsletters drafted with AI and polished by a human.</p>
+        </div>
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-soft">
+          <div class="text-2xl">🧭</div>
+          <h3 class="mt-2 font-bold">Hands-On Training</h3>
+          <p class="mt-2 text-slate-600">60–90 minutes of practical training so your team can keep cruising without us.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-extrabold">Why Jumpstart AI?</h2>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-soft">
+          <h3 class="font-bold">Practical, Not Hype</h3>
+          <p class="mt-2 text-slate-600">We focus on the 20% that drives 80% of your results. Clear wins, fast.</p>
+        </div>
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-soft">
+          <h3 class="font-bold">Small-Business Friendly</h3>
+          <p class="mt-2 text-slate-600">No corporate jargon. Simple workflows you can use the same day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16 border-t border-slate-200">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h2 class="text-2xl md:text-3xl font-extrabold">Let’s get you cruising</h2>
+      <p class="mt-3 text-slate-600">Tell us what’s eating your time. We’ll show you how AI gives it back.</p>
+      <div class="mt-6">
+        <a href="mailto:jumpstartai.consulting@gmail.com"
+           class="inline-flex items-center justify-center rounded-2xl px-6 py-3 text-base font-semibold text-white bg-indigo-600 hover:bg-indigo-700 shadow-soft">
+          Email Us
+        </a>
+      </div>
+      <p class="mt-3 text-xs text-slate-500">
+        Prefer a form? We can add one later that keeps your email hidden in the HTML.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-3">
+      <div>© <span id="y"></span> Jumpstart AI. All rights reserved.</div>
+      <div>Pricing and packages are customized. Final terms confirmed before engagement.</div>
+    </div>
   </footer>
-</div>
-<script>document.getElementById("y").textContent=new Date().getFullYear()</script>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear()</script>
+</body>
 </html>
